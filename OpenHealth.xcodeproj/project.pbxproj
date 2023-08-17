@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2A3B0E2A8E6079008C2E20 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A3B0D2A8E6079008C2E20 /* ScheduleView.swift */; };
+		BD2A3B102A8E608B008C2E20 /* PrevResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A3B0F2A8E608B008C2E20 /* PrevResultsView.swift */; };
+		BD2A3B122A8E609F008C2E20 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A3B112A8E609F008C2E20 /* MessageView.swift */; };
+		BD798A0E2A8BFD6000169632 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD798A0D2A8BFD6000169632 /* LogIn.swift */; };
+		BDEAC3DD2A8BCD5300589C37 /* OpenHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAC3DC2A8BCD5300589C37 /* OpenHealthApp.swift */; };
+		BDEAC3DF2A8BCD5300589C37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAC3DE2A8BCD5300589C37 /* ContentView.swift */; };
+		BDEAC3E12A8BCD5400589C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEAC3E02A8BCD5400589C37 /* Assets.xcassets */; };
+		BDEAC3E42A8BCD5400589C37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEAC3E32A8BCD5400589C37 /* Preview Assets.xcassets */; };
+		BDEAC3EE2A8BCD5400589C37 /* OpenHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAC3ED2A8BCD5400589C37 /* OpenHealthTests.swift */; };
+		BDEAC3F82A8BCD5400589C37 /* OpenHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAC3F72A8BCD5400589C37 /* OpenHealthUITests.swift */; };
+		BDEAC3FA2A8BCD5400589C37 /* OpenHealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAC3F92A8BCD5400589C37 /* OpenHealthUITestsLaunchTests.swift */; };
+		BDEAC4092A8BCF9100589C37 /* VolunteerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAC4082A8BCF9100589C37 /* VolunteerView.swift */; };
+		BDEAC40B2A8BCFA800589C37 /* PatientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAC40A2A8BCFA800589C37 /* PatientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDEAC3EA2A8BCD5400589C37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEAC3D12A8BCD5300589C37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEAC3D82A8BCD5300589C37;
+			remoteInfo = OpenHealth;
+		};
+		BDEAC3F42A8BCD5400589C37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEAC3D12A8BCD5300589C37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEAC3D82A8BCD5300589C37;
+			remoteInfo = OpenHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD2A3B0D2A8E6079008C2E20 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		BD2A3B0F2A8E608B008C2E20 /* PrevResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevResultsView.swift; sourceTree = "<group>"; };
+		BD2A3B112A8E609F008C2E20 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		BD798A0D2A8BFD6000169632 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		BDEAC3D92A8BCD5300589C37 /* OpenHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEAC3DC2A8BCD5300589C37 /* OpenHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHealthApp.swift; sourceTree = "<group>"; };
+		BDEAC3DE2A8BCD5300589C37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDEAC3E02A8BCD5400589C37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDEAC3E32A8BCD5400589C37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDEAC3E92A8BCD5400589C37 /* OpenHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEAC3ED2A8BCD5400589C37 /* OpenHealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHealthTests.swift; sourceTree = "<group>"; };
+		BDEAC3F32A8BCD5400589C37 /* OpenHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEAC3F72A8BCD5400589C37 /* OpenHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHealthUITests.swift; sourceTree = "<group>"; };
+		BDEAC3F92A8BCD5400589C37 /* OpenHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDEAC4082A8BCF9100589C37 /* VolunteerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerView.swift; sourceTree = "<group>"; };
+		BDEAC40A2A8BCFA800589C37 /* PatientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDEAC3D62A8BCD5300589C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAC3E62A8BCD5400589C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAC3F02A8BCD5400589C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDEAC3D02A8BCD5300589C37 = {
+			isa = PBXGroup;
+			children = (
+				BDEAC3DB2A8BCD5300589C37 /* OpenHealth */,
+				BDEAC3EC2A8BCD5400589C37 /* OpenHealthTests */,
+				BDEAC3F62A8BCD5400589C37 /* OpenHealthUITests */,
+				BDEAC3DA2A8BCD5300589C37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDEAC3DA2A8BCD5300589C37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAC3D92A8BCD5300589C37 /* OpenHealth.app */,
+				BDEAC3E92A8BCD5400589C37 /* OpenHealthTests.xctest */,
+				BDEAC3F32A8BCD5400589C37 /* OpenHealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDEAC3DB2A8BCD5300589C37 /* OpenHealth */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAC3DC2A8BCD5300589C37 /* OpenHealthApp.swift */,
+				BDEAC3DE2A8BCD5300589C37 /* ContentView.swift */,
+				BD798A0D2A8BFD6000169632 /* LogIn.swift */,
+				BDEAC40A2A8BCFA800589C37 /* PatientView.swift */,
+				BDEAC4082A8BCF9100589C37 /* VolunteerView.swift */,
+				BD2A3B0D2A8E6079008C2E20 /* ScheduleView.swift */,
+				BD2A3B0F2A8E608B008C2E20 /* PrevResultsView.swift */,
+				BD2A3B112A8E609F008C2E20 /* MessageView.swift */,
+				BDEAC3E02A8BCD5400589C37 /* Assets.xcassets */,
+				BDEAC3E22A8BCD5400589C37 /* Preview Content */,
+			);
+			path = OpenHealth;
+			sourceTree = "<group>";
+		};
+		BDEAC3E22A8BCD5400589C37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAC3E32A8BCD5400589C37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDEAC3EC2A8BCD5400589C37 /* OpenHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAC3ED2A8BCD5400589C37 /* OpenHealthTests.swift */,
+			);
+			path = OpenHealthTests;
+			sourceTree = "<group>";
+		};
+		BDEAC3F62A8BCD5400589C37 /* OpenHealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAC3F72A8BCD5400589C37 /* OpenHealthUITests.swift */,
+				BDEAC3F92A8BCD5400589C37 /* OpenHealthUITestsLaunchTests.swift */,
+			);
+			path = OpenHealthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDEAC3D82A8BCD5300589C37 /* OpenHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEAC3FD2A8BCD5400589C37 /* Build configuration list for PBXNativeTarget "OpenHealth" */;
+			buildPhases = (
+				BDEAC3D52A8BCD5300589C37 /* Sources */,
+				BDEAC3D62A8BCD5300589C37 /* Frameworks */,
+				BDEAC3D72A8BCD5300589C37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenHealth;
+			productName = OpenHealth;
+			productReference = BDEAC3D92A8BCD5300589C37 /* OpenHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDEAC3E82A8BCD5400589C37 /* OpenHealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEAC4002A8BCD5400589C37 /* Build configuration list for PBXNativeTarget "OpenHealthTests" */;
+			buildPhases = (
+				BDEAC3E52A8BCD5400589C37 /* Sources */,
+				BDEAC3E62A8BCD5400589C37 /* Frameworks */,
+				BDEAC3E72A8BCD5400589C37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEAC3EB2A8BCD5400589C37 /* PBXTargetDependency */,
+			);
+			name = OpenHealthTests;
+			productName = OpenHealthTests;
+			productReference = BDEAC3E92A8BCD5400589C37 /* OpenHealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDEAC3F22A8BCD5400589C37 /* OpenHealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEAC4032A8BCD5400589C37 /* Build configuration list for PBXNativeTarget "OpenHealthUITests" */;
+			buildPhases = (
+				BDEAC3EF2A8BCD5400589C37 /* Sources */,
+				BDEAC3F02A8BCD5400589C37 /* Frameworks */,
+				BDEAC3F12A8BCD5400589C37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEAC3F52A8BCD5400589C37 /* PBXTargetDependency */,
+			);
+			name = OpenHealthUITests;
+			productName = OpenHealthUITests;
+			productReference = BDEAC3F32A8BCD5400589C37 /* OpenHealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDEAC3D12A8BCD5300589C37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BDEAC3D82A8BCD5300589C37 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BDEAC3E82A8BCD5400589C37 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BDEAC3D82A8BCD5300589C37;
+					};
+					BDEAC3F22A8BCD5400589C37 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BDEAC3D82A8BCD5300589C37;
+					};
+				};
+			};
+			buildConfigurationList = BDEAC3D42A8BCD5300589C37 /* Build configuration list for PBXProject "OpenHealth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDEAC3D02A8BCD5300589C37;
+			productRefGroup = BDEAC3DA2A8BCD5300589C37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDEAC3D82A8BCD5300589C37 /* OpenHealth */,
+				BDEAC3E82A8BCD5400589C37 /* OpenHealthTests */,
+				BDEAC3F22A8BCD5400589C37 /* OpenHealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDEAC3D72A8BCD5300589C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEAC3E42A8BCD5400589C37 /* Preview Assets.xcassets in Resources */,
+				BDEAC3E12A8BCD5400589C37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAC3E72A8BCD5400589C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAC3F12A8BCD5400589C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDEAC3D52A8BCD5300589C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEAC40B2A8BCFA800589C37 /* PatientView.swift in Sources */,
+				BD798A0E2A8BFD6000169632 /* LogIn.swift in Sources */,
+				BDEAC3DF2A8BCD5300589C37 /* ContentView.swift in Sources */,
+				BDEAC4092A8BCF9100589C37 /* VolunteerView.swift in Sources */,
+				BD2A3B0E2A8E6079008C2E20 /* ScheduleView.swift in Sources */,
+				BD2A3B122A8E609F008C2E20 /* MessageView.swift in Sources */,
+				BD2A3B102A8E608B008C2E20 /* PrevResultsView.swift in Sources */,
+				BDEAC3DD2A8BCD5300589C37 /* OpenHealthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAC3E52A8BCD5400589C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEAC3EE2A8BCD5400589C37 /* OpenHealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAC3EF2A8BCD5400589C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEAC3FA2A8BCD5400589C37 /* OpenHealthUITestsLaunchTests.swift in Sources */,
+				BDEAC3F82A8BCD5400589C37 /* OpenHealthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDEAC3EB2A8BCD5400589C37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEAC3D82A8BCD5300589C37 /* OpenHealth */;
+			targetProxy = BDEAC3EA2A8BCD5400589C37 /* PBXContainerItemProxy */;
+		};
+		BDEAC3F52A8BCD5400589C37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEAC3D82A8BCD5300589C37 /* OpenHealth */;
+			targetProxy = BDEAC3F42A8BCD5400589C37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDEAC3FB2A8BCD5400589C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDEAC3FC2A8BCD5400589C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDEAC3FE2A8BCD5400589C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenHealth/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.OpenHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDEAC3FF2A8BCD5400589C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenHealth/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.OpenHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDEAC4012A8BCD5400589C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.OpenHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenHealth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenHealth";
+			};
+			name = Debug;
+		};
+		BDEAC4022A8BCD5400589C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.OpenHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenHealth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenHealth";
+			};
+			name = Release;
+		};
+		BDEAC4042A8BCD5400589C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.OpenHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenHealth;
+			};
+			name = Debug;
+		};
+		BDEAC4052A8BCD5400589C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.OpenHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenHealth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDEAC3D42A8BCD5300589C37 /* Build configuration list for PBXProject "OpenHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAC3FB2A8BCD5400589C37 /* Debug */,
+				BDEAC3FC2A8BCD5400589C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEAC3FD2A8BCD5400589C37 /* Build configuration list for PBXNativeTarget "OpenHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAC3FE2A8BCD5400589C37 /* Debug */,
+				BDEAC3FF2A8BCD5400589C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEAC4002A8BCD5400589C37 /* Build configuration list for PBXNativeTarget "OpenHealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAC4012A8BCD5400589C37 /* Debug */,
+				BDEAC4022A8BCD5400589C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEAC4032A8BCD5400589C37 /* Build configuration list for PBXNativeTarget "OpenHealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAC4042A8BCD5400589C37 /* Debug */,
+				BDEAC4052A8BCD5400589C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDEAC3D12A8BCD5300589C37 /* Project object */;
+}
