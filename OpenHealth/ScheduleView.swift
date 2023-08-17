@@ -15,18 +15,24 @@ struct ScheduleView: View {
       VStack {
         HStack {
           Text("Patient name: ")
-                .font(.title3)
+                .font(.title2)
+           
+            
           Spacer()
           Text("Bobette Bob")
                 .font(.title3)
                 .fontWeight(.heavy)
                 .foregroundColor(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
+                .underline()
+
         }
         
           Text("Upcoming Appointments:").font(.title2).fontWeight(.semibold).foregroundColor(Color(hue: 0.713, saturation: 1.0, brightness: 0.702)).padding(10)
         
           HStack {
               Text("8/29/23: Physical Exam with Dr. Smith ")
+                  .font(.body)
+                  
                  
          
               Toggle(isOn: $isClicked) {
@@ -44,7 +50,9 @@ struct ScheduleView: View {
               .font(.title2).fontWeight(.semibold).foregroundColor(Color(hue: 0.713, saturation: 1.0, brightness: 0.702)).padding(10)
           
         HStack {
-          Text("July 4, 2023: Pelvic Exam")
+          Text("7/4/23: Blood Draw")
+                .font(.body)
+            
           Spacer()
           Button("Reschedule") {
           }.frame(width: 120, height: 40)
@@ -54,25 +62,36 @@ struct ScheduleView: View {
                 .cornerRadius(10.0)
         }
         HStack {
-          Text("Patient has not rescheduled appointment in \(sixWeeks) so patient has recieved Chat GPT generated text message at: 1-PAT-IENT")
-            .font(.subheadline)
-            .foregroundColor(Color.purple)
+          Text("Patient has been contacted by Chat GPT generated texts at 1-PAT-IENT, to reschedule within the next \(sixWeeks) ")
+                .font(.body)
+                .foregroundColor(Color(hue: 0.779, saturation: 1.0, brightness: 0.625))
             HStack {
                 Image(systemName: "checkmark.square")
                     .foregroundColor(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
                 NavigationLink(destination: MessageView()){
-                    Text("Review messages")
+                    Text("Messages Reviewed")
                         .frame(width: 100, height: 60)
                         .fontWeight(.bold)
                         .foregroundColor(Color.white)
                         .background(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
                         .cornerRadius(10.0)
                 }
+                .frame(width: 100, height: 60)
+                .fontWeight(.bold)
+                .foregroundColor(Color.white)
+                .background(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
+                .cornerRadius(10.0)
             }
         }
         Text("Avaliable Results").padding()
+              .font(.title2).fontWeight(.semibold).foregroundColor(Color(hue: 0.713, saturation: 1.0, brightness: 0.702)).padding(10)
+          
         HStack {
-          Text("August 10, 2023: MRI Neck and Larynx")
+          Text("8/10/23: Cardiac MRI")
+                .padding(.trailing)
+                .font(.body)
+            
+            
           Toggle(isOn: $isOn) {
             Text("Patient reviewed")
                   .frame(width: 150, height: 40)
@@ -89,10 +108,11 @@ struct ScheduleView: View {
           .cornerRadius(10.0)
         }
         HStack {
-          Text("Patient has not examined results in 1 WEEK. As results are critical, Dr. Doe has been requested to call patient.")
-            .font(.subheadline)
-            .foregroundColor(Color.purple)
-            .padding(5.0)
+          Text("Patient has not examined results in TWO WEEKS. As results are critical, Dr. Smith has been requested to call patient")
+                .font(.body)
+                .foregroundColor(Color(hue: 0.779, saturation: 1.0, brightness: 0.625))
+                .padding(5.0)
+            
           Spacer()
           Image(systemName: "square").foregroundColor(Color.white)
                 .frame(width: 30, height: 30)
@@ -102,8 +122,11 @@ struct ScheduleView: View {
                 .cornerRadius(10.0)
           Text("   ")
         }
+          
         HStack {
-          Text("View AI-generated call script")
+          Text("View AI-generated call script:")
+                .font(.body)
+                .multilineTextAlignment(.leading)
           NavigationLink(destination: PrevResults()){
             Text("Script")
               .frame(width: 80, height: 30)
