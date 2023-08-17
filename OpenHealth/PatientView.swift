@@ -10,7 +10,9 @@ import SwiftUI
 struct PatientView: View {
     @State private var isOn = false
     @State private var On = false
+    @State private var OnClick = false
     //@State private var patientBob = Patient(dates1: ["2014-05-20", "2014-05-20"], name1: "Bob")
+    
     public var ptName = ""
     var body: some View {
         VStack {
@@ -55,29 +57,41 @@ struct PatientView: View {
                         .foregroundColor(Color.white)
                 }
                 .background(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
-                Spacer()
                 
+                Text("")
+                Text("")
                 Toggle(isOn: $isOn) {
-                    Text("Patient reviewed")
-                        .font(.title)
+                    Text("Bring Amelia a care basket with books, puzzles, and games")
+                        .font(.title3)
                         .fontWeight(.semibold)
                         .padding(.trailing)
                     
                 }
                 .frame(height: nil)
                 .toggleStyle(iOSCheckboxToggleStyle())
-                
+                Text("")
+                Text("")
                 Toggle(isOn: $On) {
-                    Text("Accompany Amelia to her doctor's appt at 3PM")
+                    Text("Accompany Amelia to her doctor's appointment at 3PM")
+                        .font(.title3)
+                        .fontWeight(.semibold)
+                        .frame(height: nil)
+                       
+                    
+                }
+                .frame(height: nil)
+                .toggleStyle(iOSCheckboxToggleStyle())
+                Text("                                                                  ")
+                
+                Toggle(isOn: $OnClick) {
+                    Text("Amelia Recieved")
                         .font(.title)
                         .fontWeight(.semibold)
                         .padding(.trailing)
                     
                 }
-                .frame(height: nil)
-                .toggleStyle(iOSCheckboxToggleStyle())
-                Spacer()
-            }
+            
+            }.padding()
             
         }
     }

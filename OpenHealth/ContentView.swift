@@ -6,8 +6,15 @@
 //
 
 import SwiftUI
+  
+
 
 struct ContentView: View {
+    
+    @State private var selection = "English"
+    let colors = ["English", "Spanish", "Russian", "Mandarin", "Portugese"]
+
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -59,8 +66,29 @@ struct ContentView: View {
                 
                 Spacer()
                     .frame(height: 270)
-               
-                
+                HStack {
+                    VStack {
+                        Text("Selected Language: \(selection)")
+                        
+                        Picker("Select a paint color", selection: $selection) {
+                            ForEach(colors, id: \.self) {
+                                Text($0)
+                            }
+                        }
+                        .pickerStyle(.menu)
+                      
+                        
+
+                        
+                    }
+                    Image(systemName: "globe")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .foregroundColor(Color.blue)
+                        .frame(width: 50)
+                }
+             
+
                 
             }
             // .padding()

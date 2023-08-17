@@ -9,7 +9,7 @@ import SwiftUI
 struct MessageView: View {
   var body: some View {
     VStack {
-      Button("Dear Bobette Bobby, I wanted to personally reach out to you as your physician to remind you that we have received the test results from the pelvic exam you underwent on July 4, 2023.") {
+      Button("Dear Katie Smith, I wanted to personally reach out to you as your physician to remind you that we have received the test results from the pelvic exam you underwent on July 4, 2023.") {
       }.buttonStyle(.borderedProminent)
       Spacer()
       Button(" I am pleased to inform you that we have thoroughly reviewed your test results and everything appears to be within normal limits. This is a positive indicator that your pelvic exam did not reveal any significant abnormalities or concerns.") {

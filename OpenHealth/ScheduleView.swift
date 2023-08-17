@@ -19,7 +19,7 @@ struct ScheduleView: View {
            
             
           Spacer()
-          Text("Bobette Bob")
+          Text("Katie Smith")
                 .font(.title3)
                 .fontWeight(.heavy)
                 .foregroundColor(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
@@ -55,22 +55,20 @@ struct ScheduleView: View {
             
           Spacer()
           Button("Reschedule") {
-          }.frame(width: 120, height: 40)
+          }.frame(width: 200, height: 40)
                 .fontWeight(.bold)
                 .foregroundColor(Color.white)
                 .background(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
                 .cornerRadius(10.0)
         }
         HStack {
-          Text("Patient has been contacted by Chat GPT generated texts at 1-PAT-IENT, to reschedule within the next \(sixWeeks) ")
+          Text("AI-generated texts sent to 1-PAT-IENT if patient has not responded in > 6 weeks")
                 .font(.body)
-                .foregroundColor(Color(hue: 0.779, saturation: 1.0, brightness: 0.625))
+                
             HStack {
-                Image(systemName: "checkmark.square")
-                    .foregroundColor(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
+                
                 NavigationLink(destination: MessageView()){
                     Text("Messages Reviewed")
-                        .frame(width: 100, height: 60)
                         .fontWeight(.bold)
                         .foregroundColor(Color.white)
                         .background(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
@@ -108,14 +106,11 @@ struct ScheduleView: View {
           .cornerRadius(10.0)
         }
         HStack {
-          Text("Patient has not examined results in TWO WEEKS. As results are critical, Dr. Smith has been requested to call patient")
+          Text("Patient has not examined results in > 2 weeks. As results are critical, Dr. Smith has been requested to call patient")
                 .font(.body)
-                .foregroundColor(Color(hue: 0.779, saturation: 1.0, brightness: 0.625))
-                .padding(5.0)
-            
           Spacer()
           Image(systemName: "square").foregroundColor(Color.white)
-                .frame(width: 30, height: 30)
+                .frame(width: 80, height: 40)
                 .fontWeight(.bold)
                 .foregroundColor(Color.white)
                 .background(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
@@ -124,12 +119,12 @@ struct ScheduleView: View {
         }
           
         HStack {
-          Text("View AI-generated call script:")
+          Text("View AI-generated call script:    ")
                 .font(.body)
                 .multilineTextAlignment(.leading)
           NavigationLink(destination: PrevResults()){
             Text("Script")
-              .frame(width: 80, height: 30)
+                  .frame(width: 200, height: 40)
               .fontWeight(.bold)
               .foregroundColor(Color.white)
               .background(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
