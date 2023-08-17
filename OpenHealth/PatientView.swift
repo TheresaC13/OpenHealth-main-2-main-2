@@ -16,17 +16,16 @@ struct PatientView: View {
     public var ptName = ""
     var body: some View {
         VStack {
-            HStack {
+            VStack {
                 Image("name")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 175, height: 175)
-                    .padding(.leading, -110.0)
+                    //.frame(width: 175, height: 175)
                 Image("icon")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 64.0, height: 64.0)
-                
+                  .resizable(resizingMode: .stretch)
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 120, height: 120)
+
             }
             //Spacer()
             
@@ -49,9 +48,10 @@ struct PatientView: View {
                         .foregroundColor(Color.white)
                     
                     Text("OpenHealth's volunteer network connects student volunteers to elderly patients to offer them assistance in understanding their care.")
-                    
-                    
-                        .frame(width: 375, height: 75)
+                        .font(.title3)
+                
+                        .multilineTextAlignment(.center)
+                        .frame(width: 375, height: 100)
                         .padding([.leading, .bottom, .trailing])
                     //.padding(.leading, .trailing, .bottom)
                         .foregroundColor(Color.white)
@@ -65,17 +65,18 @@ struct PatientView: View {
                         .font(.title3)
                         .fontWeight(.semibold)
                         .padding(.trailing)
+                        .frame(width: 200.0, height: 100.0)
                     
                 }
                 .frame(height: nil)
                 .toggleStyle(iOSCheckboxToggleStyle())
-                Text("")
-                Text("")
+               
                 Toggle(isOn: $On) {
                     Text("Accompany Amelia to her doctor's appointment at 3PM")
                         .font(.title3)
                         .fontWeight(.semibold)
-                        .frame(height: nil)
+                        .multilineTextAlignment(.leading)
+                        .frame(width: 200.0, height: 100.0)
                        
                     
                 }
