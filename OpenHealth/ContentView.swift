@@ -37,15 +37,17 @@ struct ContentView: View {
                 .cornerRadius(50)
                 .padding(.bottom)
                 
-                NavigationLink (destination: VolunteerView()) {
+                NavigationLink (destination: PatientLogin()) {
                     Text("Patient View")
                         .font(.title2)
                         .fontWeight(.bold)
+                    
                 }
                 .frame(width: 200, height: 50)
                 .background(Color(hue: 0.662, saturation: 0.806, brightness: 0.797))
                 .foregroundColor(Color.white)
                 .cornerRadius(50)
+                .padding(.bottom)
                 
                 Text("Sign Up")
                     .font(.title2)

@@ -10,6 +10,7 @@
 		BD2A3B0E2A8E6079008C2E20 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A3B0D2A8E6079008C2E20 /* ScheduleView.swift */; };
 		BD2A3B102A8E608B008C2E20 /* PrevResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A3B0F2A8E608B008C2E20 /* PrevResultsView.swift */; };
 		BD2A3B122A8E609F008C2E20 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A3B112A8E609F008C2E20 /* MessageView.swift */; };
+		BD73213B2A8E664C00C3E726 /* PatientLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD73213A2A8E664C00C3E726 /* PatientLogin.swift */; };
 		BD798A0E2A8BFD6000169632 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD798A0D2A8BFD6000169632 /* LogIn.swift */; };
 		BDEAC3DD2A8BCD5300589C37 /* OpenHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAC3DC2A8BCD5300589C37 /* OpenHealthApp.swift */; };
 		BDEAC3DF2A8BCD5300589C37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAC3DE2A8BCD5300589C37 /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 		BD2A3B0D2A8E6079008C2E20 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		BD2A3B0F2A8E608B008C2E20 /* PrevResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevResultsView.swift; sourceTree = "<group>"; };
 		BD2A3B112A8E609F008C2E20 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		BD73213A2A8E664C00C3E726 /* PatientLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientLogin.swift; sourceTree = "<group>"; };
 		BD798A0D2A8BFD6000169632 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
 		BDEAC3D92A8BCD5300589C37 /* OpenHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEAC3DC2A8BCD5300589C37 /* OpenHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHealthApp.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				BDEAC3DC2A8BCD5300589C37 /* OpenHealthApp.swift */,
 				BDEAC3DE2A8BCD5300589C37 /* ContentView.swift */,
 				BD798A0D2A8BFD6000169632 /* LogIn.swift */,
+				BD73213A2A8E664C00C3E726 /* PatientLogin.swift */,
 				BDEAC40A2A8BCFA800589C37 /* PatientView.swift */,
 				BDEAC4082A8BCF9100589C37 /* VolunteerView.swift */,
 				BD2A3B0D2A8E6079008C2E20 /* ScheduleView.swift */,
@@ -277,6 +280,7 @@
 			files = (
 				BDEAC40B2A8BCFA800589C37 /* PatientView.swift in Sources */,
 				BD798A0E2A8BFD6000169632 /* LogIn.swift in Sources */,
+				BD73213B2A8E664C00C3E726 /* PatientLogin.swift in Sources */,
 				BDEAC3DF2A8BCD5300589C37 /* ContentView.swift in Sources */,
 				BDEAC4092A8BCF9100589C37 /* VolunteerView.swift in Sources */,
 				BD2A3B0E2A8E6079008C2E20 /* ScheduleView.swift in Sources */,
